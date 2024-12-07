@@ -636,10 +636,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     
-    let inscriptbtn = document.querySelector("#inscriptbtn");
-
-    // Add an event listener to the button
-    inscriptbtn.addEventListener("click", function () {
-        alert("Your submission is received!");
-    });
-    

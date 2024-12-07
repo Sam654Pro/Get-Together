@@ -288,8 +288,15 @@
                             <option value="Online Payment">Online Payment</option>
                         </select>
                     </form>
-                    <button type="button" onclick="alert()" id="inscriptbtn">Submit</button>
-                </div>    
+                    <button type="button" id="inscriptbtn">Submit</button>
+                    <script>
+                      const button = document.getElementById("inscriptbtn");
+                    
+                      button.addEventListener("click", function () {
+                        alert("Your submission is received!");
+                      });
+                    </script>                
+                    </div>    
             </div>
         </section>
         <!-- <section class="jumpToSection">
