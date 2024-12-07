@@ -638,4 +638,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     let inscriptbtn = document.querySelector("#inscriptbtn");
 
-    inscriptbtn.alert("Your submission is recieved!")
+    // Add an event listener to the button
+    inscriptbtn.addEventListener("click", function () {
+        alert("Your submission is received!");
+    });
+    
