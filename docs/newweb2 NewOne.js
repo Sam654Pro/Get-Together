@@ -11,6 +11,7 @@ window.addEventListener("load", function () {
     timeline.to(characterImage, {
         scale: 1.2,
         duration: 1,
+        opacity: 1,
         ease: "power2.out"
     });
 

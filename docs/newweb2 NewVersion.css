@@ -38,6 +38,7 @@ body {
     height: 300px;
     object-fit: contain;
     transform: scale(0); 
+    opacity: 0;
     transition: transform 1s ease;
 }
 
