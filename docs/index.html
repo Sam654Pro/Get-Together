@@ -358,8 +358,16 @@
                 </div>
                 <div class="right">
                     <div>
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="submeet">Submit</button>
                     </div>
+                    <script>
+                        const submeet = document.querySelector(".submeet");
+                        
+                        submeet.addEventListener("click", function () {
+                            alert("Your information is sent!");
+                        });
+                    </script>                
+
                     <div>
                         <button>Forgot Password</button>
                     </div>    
