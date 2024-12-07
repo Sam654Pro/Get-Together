@@ -636,3 +636,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     
+    let inscriptbtn = document.querySelector("#inscriptbtn");
+
+    inscriptbtn.alert("Your submission is recieved!")
