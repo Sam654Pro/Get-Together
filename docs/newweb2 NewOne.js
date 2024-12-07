@@ -12,7 +12,8 @@ window.addEventListener("load", function () {
         scale: 1.2,
         duration: 1,
         opacity: 1,
-        ease: "power2.out"
+        ease: "power2.out",
+        transition: "1.5s ease",
     });
 
     timeline.to(progressBar, {
