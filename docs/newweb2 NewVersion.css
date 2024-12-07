@@ -34,8 +34,8 @@ body {
 }
 
 #characterImage {
-    width: 300px;
-    height: 300px;
+    width: 301px;
+    height: 301px;
     object-fit: contain;
     transform: scale(0); 
     transition: transform 1s ease;
