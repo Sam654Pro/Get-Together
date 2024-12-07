@@ -37,7 +37,7 @@ body {
     width: 250px;
     height: 300px;
     object-fit: contain;
-    transform: scale(0.6); 
+    transform: scale(0); 
     transition: transform 1s ease;
 }
 

@@ -9,7 +9,7 @@ window.addEventListener("load", function () {
     const timeline = gsap.timeline();
 
     timeline.to(characterImage, {
-        scale: .9,
+        scale: 1.2,
         duration: 1,
         ease: "power2.out"
     });
